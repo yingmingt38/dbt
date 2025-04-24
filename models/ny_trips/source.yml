@@ -1,0 +1,11 @@
+
+version: 2
+
+sources:
+    - name: ny_trip_source
+      database: terraform-demo-456603
+      schema: terraform_demo_456603_dataset  
+      tables:
+        - name: green_trips_with_id
+        - name: yellow_trips_with_id
+
